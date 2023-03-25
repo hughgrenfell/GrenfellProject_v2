@@ -1,0 +1,82 @@
+/*  
+Colour Palette
+https://coolors.co/031927-427aa1-828489-fcf7f8-c8ad55
+#828489 Gray Web
+#FCF7F8 Snow
+#C8AD55 Vegas Gold
+#427AA1 UCLA Blue
+#031927 Rich Black
+*/
+
+/* CSS Reset */
+/* -------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 5vh 1fr;
+  grid-template-areas:
+    "header"
+    "content";
+  grid-gap: 1vh;
+  background: #fcf7f8 /* Snow */;
+  font-family: "Roboto Condensed", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #828489; /* Gray Web */
+}
+a:hover {
+  color: #c8ad55 /* Vegas Gold */;
+}
+h1 {
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+p {
+  margin-bottom: 15px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+body {
+  overflow: hidden;
+}
+input {
+  color: #828489 /* Gray Web */;
+}
+button {
+  margin: 0 10px;
+  padding: 0px 10px;
+  background-color: #c8ad55; /*Vegas Gold*/
+  color: #fcf7f8; /* Snow */
+  border-radius: 5px;
+}
+
+
+/* Content Styles */
+/* -------------------------------------------------------- */
+
+.content {
+  padding: 15px;
+  color: #828489 /* Gray Web */;
+  overflow: auto;
+}  

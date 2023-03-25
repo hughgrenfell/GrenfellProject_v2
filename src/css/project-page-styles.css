@@ -1,0 +1,46 @@
+/*  
+Colour Palette
+https://coolors.co/031927-427aa1-828489-fcf7f8-c8ad55
+#828489 Gray Web
+#FCF7F8 Snow
+#C8AD55 Vegas Gold
+#427AA1 UCLA Blue
+#031927 Rich Black
+*/
+
+
+/* Project Page Styles */
+/* -------------------------------------------------------- */
+
+.project-container h1, 
+.project-container h2 {
+    text-align: center;
+}
+.project-container h2 {
+    padding-top: 5px;
+}
+
+.project-container .projects-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.project-container .projects-nav a {
+    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+    -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 5px;
+    padding-top: 10px;
+    margin: 8px;
+}
+.project-container .projects-nav a:hover {
+    color:rgb(0, 0, 0);
+    background-color:#bcb4b6;
+    margin: 8px;
+}
+.project-container img {
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "meal-1",
+        "className": "menu-card",
+        "title": "Simple Risotto",
+        "ingredients": ["rice", "cheese", "cooking wine"],
+        "img": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+        "draggable": true
+    },
+    {
+        "id": "meal-2",
+        "className": "menu-card",
+        "title": "Everyday Salad",
+        "ingredients": ["lettuce", "olive oil", "white wine vinegar"],
+        "img": "https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQi0jE0NTg5fQ",
+        "draggable": true
+    },
+    {
+        "id": "meal-3",
+        "className": "menu-card",
+        "title": "Pizza - Takeout",
+        "ingredients": ["phone"],
+        "img": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+        "draggable": true
+    },
+    {
+        "id": "meal-4",
+        "className": "menu-card",
+        "title": "Salmon and Fries",
+        "ingredients": ["fish", "french fries", "broccoli"],
+        "img": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "draggable": true
+    }
+]

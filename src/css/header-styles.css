@@ -1,0 +1,72 @@
+/*  
+Colour Palette
+https://coolors.co/031927-427aa1-828489-fcf7f8-c8ad55
+#828489 Gray Web
+#FCF7F8 Snow
+#C8AD55 Vegas Gold
+#427AA1 UCLA Blue
+#031927 Rich Black
+*/
+
+
+/* Header Styles */
+/* -------------------------------------------------------- */
+
+.header-container {
+  grid-area: "header";
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "site-logo"
+    "login";
+  color: #fff /*Snow*/;
+  background-color: #111111;
+  font-size: 2.5rem;
+  height: 45px;
+  white-space: nowrap;
+}
+.site-logo {
+  grid-area: "site-logo";
+  float: left;
+}
+.site-name {
+  display: inline-block;
+  color: #fff;
+  padding-left: 0.5rem;
+}
+.logo {
+  display: inline-block;
+  padding-left: 10px;
+  max-height: 40px;
+}
+.logo img {
+  max-height: inherit;
+}
+.site-menu {
+  display: inline-block;
+  height: 100vh;
+  padding-left: 30px;
+}
+.site-menu a {
+  color: inherit;
+  font-size: 60%;
+  padding-right: 15px;
+}
+.site-menu a:hover {
+  color: #c8ad55 /* Vegas Gold */;
+}
+.login li {
+    font-size: 2rem;
+    list-style: none;
+    grid-area: "login";
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.login a {
+  color: #FCF7F8;
+}
+.login a:hover {
+  color: #c8ad55;
+}
+
