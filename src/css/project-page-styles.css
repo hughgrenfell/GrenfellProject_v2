@@ -24,6 +24,18 @@ https://coolors.co/031927-427aa1-828489-fcf7f8-c8ad55
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+@media only screen and (max-width: 1920px) {
+    .project-container .projects-nav {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .project-container .projects-nav {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
 .project-container .projects-nav a {
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
@@ -31,6 +43,7 @@ https://coolors.co/031927-427aa1-828489-fcf7f8-c8ad55
     padding: 5px;
     padding-top: 10px;
     margin: 8px;
+    max-width: 350px;
 }
 .project-container .projects-nav a:hover {
     color:rgb(0, 0, 0);

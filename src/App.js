@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Home, Projects, P1, P2, P3, P4, P5, P6, Whoops404 } from './pages';
+import { Home, Projects, P1, P2, P3, P4, P5, P6, P7, P8, Whoops404 } from './pages';
 
 function App() {
 
@@ -21,6 +21,8 @@ function App() {
         <Route path="/projects/project4" element={<P4 />} />
         <Route path="/projects/project5" element={<P5 />} />
         <Route path="/projects/project6" element={<P6 />} />
+        <Route path="/projects/project7" element={<P7 />} />
+        <Route path="/projects/project8" element={<P8 />} />
         <Route path="*" element={<Whoops404 />} />
       </Routes>
     </div>

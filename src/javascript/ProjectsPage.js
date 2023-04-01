@@ -7,7 +7,7 @@ import '../css/project-page-styles.css';
 export function ProjectsPage() {
     return(
         <div className="project-container">
-            <h1>Current Projects:</h1>
+            <h1>Projects:</h1>
             <nav className="projects-nav" id="projects-nav">
                 <Link to="project1">
                     <img src={project1logo} alt="Todo List Screenshot"/>
@@ -32,6 +32,14 @@ export function ProjectsPage() {
                 <Link to="project6">
                     <img src={project3logo} alt="Drag and Drop Screenshot"/>
                     <h2>Popup with Animation</h2>
+                </Link>
+                <Link to="project7">
+                    <img src={project3logo} alt="Drag and Drop Screenshot"/>
+                    <h2>Menu Planner Upgrade</h2>
+                </Link>
+                <Link to="project8">
+                    <img src={project3logo} alt="Drag and Drop Screenshot"/>
+                    <h2>Menu Planner Version2</h2>
                 </Link>
             </nav>
         </div>

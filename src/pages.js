@@ -8,6 +8,8 @@ import Project3 from './javascript/Project3'
 import Project4 from './javascript/Project4'
 import Project5 from './javascript/Project5'
 import Project6 from './javascript/Project6'
+import Project7 from './javascript/Project7'
+import Project8 from './javascript/Project8'
 
 export function Home() {
     return (
@@ -55,6 +57,18 @@ export function P5() {
 export function P6() {
     return (
         <Project6 />
+    );
+}
+
+export function P7() {
+    return (
+        <Project7 />
+    );
+}
+
+export function P8() {
+    return (
+        <Project8 />
     );
 }
 
