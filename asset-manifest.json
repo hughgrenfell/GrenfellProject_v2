@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GrenfellProject_v2/static/css/main.e60431e4.css",
+    "main.js": "/GrenfellProject_v2/static/js/main.8f871227.js",
+    "static/media/mealplanner-logo.png": "/GrenfellProject_v2/static/media/mealplanner-logo.a378270b8bb56abf5aeb.png",
+    "static/media/loancalculator-logo.png": "/GrenfellProject_v2/static/media/loancalculator-logo.01d9b979e1ea4463af1e.png",
+    "static/media/todo-logo.png": "/GrenfellProject_v2/static/media/todo-logo.489228d2094e8b29ec97.png",
+    "index.html": "/GrenfellProject_v2/index.html",
+    "main.e60431e4.css.map": "/GrenfellProject_v2/static/css/main.e60431e4.css.map",
+    "main.8f871227.js.map": "/GrenfellProject_v2/static/js/main.8f871227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e60431e4.css",
+    "static/js/main.8f871227.js"
+  ]
+}
